@@ -1,0 +1,470 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    background-color:#f6f6f6;
+}
+
+/* Header */
+
+.big-wrapper{
+    background-image:url("../img/banner.jpg");
+    background-size:cover;
+    background-position:center top;
+    color:#fff;
+    opacity: 0.9;
+
+}
+
+.big-wrapper .fa{
+    font-size:20px;
+    color:red;
+    margin-top:30px;
+    margin-left:150px;
+}
+
+.big-wrapper .wrapper-text{
+    margin-left:150px;
+    margin-top:150px;
+    width:40%;
+    opacity: 0.9;
+    padding-bottom:100px;
+    line-height:30px;
+}
+
+.big-wrapper .wrapper-text h1{
+    font-size:30px;
+    word-spacing: 20px;
+}
+
+.big-wrapper .wrapper-text p{
+    font-size:10px;
+    font-weight:bolder;
+    font-family:arial;
+    line-height:15px;
+    
+}
+
+.big-wrapper .wrapper-text button{
+    background-color: transparent;
+    border:2px solid #fff;
+    width:80px;
+    height:30px;
+    margin-top:20px;
+    font-size:10px;
+    font-weight:bolder;
+    font-family:arial;
+   
+}
+
+/* section */
+
+section{
+    width:80%;
+    margin:auto;
+}
+
+section .part-1{
+    width:50%;
+    margin:auto;
+}
+
+section .part-1 p{
+    font-size:10px;
+    font-weight:bolder;
+    font-family:arial;
+    line-height:15px;
+    color:grey;
+}
+
+section .part-2 img{
+   padding:20px;
+   background-color: #fff;
+   margin:20px 20px;
+   width:50px;
+}
+
+section .part-2 p{
+    font-size:10px;
+}
+/* section-1 */
+
+.section-1{
+    padding:30px;
+    width:100%;
+    margin:auto;
+    background-color:#fff;
+  
+}
+
+.section-1 {
+   text-align: center;
+}
+
+.section-1 img{
+    margin-right:190px;
+}
+
+.section-1 p{
+    font-size:10px;
+    font-weight:bolder;
+    font-family:arial;
+    line-height:15px;
+    color:grey;
+}
+
+/* projection */
+
+.projection{
+    background-color:#28282e;
+    color:#fff;
+}
+
+/* section-2 */
+
+.section-2{
+    margin-top:50px;
+}
+
+.section-2 .background{
+    background-image:url("../img/img\ 2.jpg");
+    color:#fff;
+    background-size:cover;
+
+}
+
+/* section-3 */
+
+.section-3 .img img{
+    width:30%;
+    margin:20px;
+}
+
+/* section-4 */
+
+.section-4{
+    padding:30px 0;
+    background-color: #222;
+    color:#fff;
+}
+
+.section-4 .group-1{
+    width:40%;
+    margin:auto;
+    text-align:center;
+}
+
+.section-4 .group-2{
+    width:50%;
+    margin:auto;
+}
+
+.section-4 img{
+    width:100%;
+}
+
+/* footer */
+
+.footer{
+    width:100%;
+}
+
+
+.footer{
+    background-color: red;
+    color:#fff;
+    padding:10px;
+    text-align:center;
+}
+
+ .table{
+    background-color: #222;
+    color:#fff;
+    width:100%;
+    padding:20px 0;
+}
+
+ .table table {
+    text-align:center;
+    margin-left:100px;
+
+}
+
+ .table table th {
+    padding-left:100px;
+
+}
+
+/* media-queiry-start */
+
+@media only screen and (max-width:1000px){
+
+    .big-wrapper{
+        background-image:url("../img/banner.jpg");
+        background-size:cover;
+        background-position:center top;
+        color:#fff;
+        opacity: 0.9;
+        height:230px;
+        width:100%;
+
+    
+    }
+    
+    .big-wrapper .fa{
+        font-size:10px;
+        color:red;
+        margin-top:10px;
+        margin-left:20px;
+    }
+    
+    .big-wrapper .wrapper-text{
+        margin-left:20px;
+        margin-top:20px;
+        width:100%;
+        opacity: 0.9;
+        line-height:15px;
+    }
+    
+    .big-wrapper .wrapper-text h1{
+        font-size:15px;
+        word-spacing:10px;
+    }
+    
+    .big-wrapper .wrapper-text p{
+        font-size:8px;
+        font-weight:bolder;
+        font-family:arial;
+        line-height:12px;
+        
+    }
+    
+    .big-wrapper .wrapper-text button{
+        background-color: transparent;
+        border:1px solid #fff;
+        width:50px;
+        height:20px;
+        margin-top:20px;
+        margin-bottom:20px;
+        font-size:8px;
+        font-weight:bolder;
+        font-family:arial;
+       
+    }
+
+    section{
+        width:80%;
+        margin:auto;
+    }
+    
+    section .part-1{
+        width:100%;
+        margin:auto;
+    }
+    
+    section .part-1 p{
+        font-size:10px;
+        font-weight:bolder;
+        font-family:arial;
+        line-height:15px;
+        color:grey;
+    }
+
+    .section-2 .part-2{
+        width:100%;
+    }
+    
+    section .part-2 img{
+       padding:0px;
+       background-color: #fff;
+       margin:20px 20px;
+       width:30px;
+    }
+    
+    section .part-2 p{
+        font-size:8px;
+    }
+
+    /* section-1 */
+
+.section-1{
+    padding:20px;
+    width:100%;
+    margin:auto;
+    background-color:#fff;
+   text-align:left;
+}
+
+.section-1 h1{
+    font-size:20px;
+}
+
+
+.section-1 img{
+    margin-right:190px;
+}
+
+.section-1 p{
+    font-size:10px;
+    font-weight:bolder;
+    font-family:arial;
+    line-height:15px;
+    color:grey;
+}
+
+/* projection */
+
+.projection{
+    background-color:#28282e;
+    color:#fff;
+    width:100%;
+}
+
+.projection h3{
+    font-size:15px;
+}
+
+.projection p{
+    font-size:8px;
+    line-height:20px;
+}
+
+.projection img{
+    width:100%;
+}
+
+.projection button{
+    width:80px;
+    height:20px;
+    font-size:8px;
+    color:black;
+}
+
+/* section-2 */
+
+.section-2{
+    margin-top:30px;
+}
+
+.section-2 h1{
+    font-size:15px;
+}
+
+.section-2 h5{
+    font-size:10px;
+}
+
+.section-2 h4{
+    font-size:10px;
+}
+
+.section-2 p{
+    font-size:8px;
+    line-height:20px;
+}
+
+
+
+.section-2 .background{
+    background-image:url("../img/img\ 2.jpg");
+    color:#fff;
+    background-size:cover;
+    height:50px;
+
+}
+
+/* section-3 */
+
+.section-3 .img img{
+    width:100%;
+    margin:10px;
+}
+
+.section-3 h3{
+    font-size:10px;
+
+}
+
+.section-3 span{
+    font-size:12px;
+}
+
+.section-3 p{
+    font-size:8px;
+}
+
+/* section-4 */
+
+.section-4{
+    padding:20px 0;
+    background-color: #222;
+    color:#fff;
+}
+
+.section-4 .group-1{
+    width:100%;
+    margin:auto;
+    text-align:center;
+}
+
+.section-4 .group-1 h1{
+    font-size:15px;
+}
+
+.section-4 .group-1 p{
+    font-size:8px;
+}
+
+.section-4 .group-2{
+    width:100%;
+    margin:auto;
+}
+
+.section-4 .group-2 .carousel-caption h3{
+    font-size:10px;
+}
+
+.section-4 img{
+    width:100%;
+}
+
+    
+
+    .footer{
+        width:100%;
+    }
+    
+    
+    .footer{
+        background-color: red;
+        color:#fff;
+        padding:8px;
+        text-align:center;
+    }
+    
+     .table{
+        background-color: #222;
+        color:#fff;
+        width:100%;
+        padding-top:10px;
+        padding-bottom:10px;
+    
+    }
+
+    .table table{
+        margin-left:30px;
+    }
+    
+     .table table th {
+        padding-left:15px;
+        font-size:5px;
+    
+    }
+
+}
